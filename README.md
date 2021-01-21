@@ -1,5 +1,5 @@
 # 若您有興趣了解站內付2.0的服務，請前往以下網址並填寫資料，我們將派專人儘快與您聯繫
-# https://member.ecpay.com.tw/MemberReg/MerchantRegister
+## https://member.ecpay.com.tw/MemberReg/MerchantRegister
 
 # 站內付2.0_Web版
 
