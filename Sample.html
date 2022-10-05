@@ -49,7 +49,7 @@
     $(function () {
         var Environment = 'STAGE'; //請設定要連線的環境: 測試 STAGE ,正式PROD
         var envi = GetEnvi(Environment);
-        var _token = '973f1acf4d7f48abb0cb5de789b69b8f'; //請設定你取到的廠商驗證碼
+        var _token = '88a2bfce44b44ea0909c2938ab5e9337'; //請設定你取到的廠商驗證碼
 
         //初始化SDK畫面
         ECPay.initialize(envi, 1, function (errMsg) {
@@ -63,7 +63,7 @@
                     //console.log('Callback Message: ' + errMsg);
                     if (errMsg != null)
                         ErrHandle(errMsg);
-                });
+                },'V2');
                 $('#Language').val(ECPay.Language.zhTW);
             } catch (err) {
                 ErrHandle(err);
@@ -77,7 +77,7 @@
                     //console.log('Callback Message: ' + errMsg);
                     if (errMsg != null)
                         ErrHandle(errMsg);
-                });
+                },'V2');
 
             } catch (err) {
                 ErrHandle(null);
