@@ -49,7 +49,7 @@
     $(function () {
         var Environment = 'STAGE'; //請設定要連線的環境: 測試 STAGE ,正式PROD
         var envi = GetEnvi(Environment);
-        var _token = '88a2bfce44b44ea0909c2938ab5e9337'; //請設定你取到的廠商驗證碼
+        var _token = '9cbf8fac271b475bae42cbe6aea8a9cc'; //請設定你取到的廠商驗證碼
 
         //初始化SDK畫面
         ECPay.initialize(envi, 1, function (errMsg) {
@@ -85,6 +85,7 @@
         });
 
         //消費者選擇完成付款方式,取得PayToken 
+		
         $('#btnPay').click(function () {
 
             try {
